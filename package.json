@@ -1,0 +1,22 @@
+{
+  "name": "truffle-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.12.1",
+    "truffle": "^5.1.53",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test",
+    "ganache": "ganache-cli",
+    "compile": "truffle compile",
+    "deploy": "truffle deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
